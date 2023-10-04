@@ -1,0 +1,37 @@
+body {
+    margin-bottom: -100px;
+    background-color: #DAFFFB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #04364A;
+}
+
+header {
+    height: 150; 
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.headerdiv{
+    height: 150; 
+    width: 100%;
+    background-color: aqua;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.png1{
+    float: left;
+}
+
+.button1 {
+    height: 50%; 
+    width: 50%;
+    font-size: 45px;
+    background-color: #64CCC5;
+    color: #04364A;
+    border-color: #04364A;
+    border-radius: 25px;
+    
+}
