@@ -11,27 +11,141 @@
     </head>
     
     <header>
-        <div class="intro">
-            <h3 class="top">Hey, I'm</h3>
-            <h1>Omar Elasfar</h1>
-            <h3 class="bottom">Computer Science Student</h3>
-        </div> 
-        <div class="container">
-            <div class="btn"><a href="skills.html">Skills</a></div>
-            <div class="btn"><a href="projects.html">Projects</a></div>
-            <div class="btn"><a href="socials.html">Socials</a></div>
-        </div>
+        <a href="index.html"><img class="logo" src="images/logo0.png" alt="logo"></a>
+        <ul class="header-items">
+            <li><a class="header-link" href="#about-me" rel="noopener"><img src="images/boy-dynamic-clay.png" alt="about me"><p>About</p></a></li>
+            <li><a class="header-link" href="#skills-anchor" rel="noopener"><img src="images/computer-dynamic-clay.png" alt="skills"><p>Skills</p></a></li>
+            <li><a class="header-link" href="#projects-anchor" rel="noopener"><img src="images/folder-dynamic-clay.png" alt="contact"><p>Projects</p></a></li>
+            <li><a class="header-link" href="resume/Omar Elasfar's Resume.pdf" target="_blank"><img src="images/file-plus-dynamic-clay.png" alt="resume"><p>Resume</p></a></li>
+        </ul>
     </header>
     
     <body>
-        <div class="para">
-        <!--subheading-->
-        <h2>Breif Intro</h2>
-        <!--paragraph explaining who I am-->
-        <p>My name is Omar Elasfar and I am a student at Carleton University studying Computer Science with a minor in Statistics. I am very interested in programming and software engineering. My academic journey is centered around Computer Science, where I am developing a strong foundation in programming languages, object-oriented programming, and abstract data types. I am eager to leverage my academic knowledge and practical experience to contribute to innovative solutions in the field of software engineering.
-        </p> <!--<pre> obeys page breaks-->
+        <div id="about-me"></div>
+        <div class="section-header">
+            <h1>About Me</h1>
         </div>
-        <img class= "img" src="images/computer-dynamic-premium.png" alt="computer">
+
+        <ul class="socials">
+            <li class="socials-link"><a href="https://www.linkedin.com/in/omar-elasfar/" rel="noopener"><img src="images/linkedin.png" alt="about me"></a></li>
+            <li class="socials-link"><a href="https://github.com/elasfaromar" rel="noopener"><img src="images/github.png" alt="skills"></a></li>
+            <li class="socials-link"><a href="https://www.instagram.com/onaromara/" rel="noopener"><img src="images/instagram.png" alt="contact"></a></li>
+            <li class="socials-link"><a href="mailto:omarelasfaregy17@gmail.com" target="_blank"><img src="images/email.png" alt="resume"></a></li>
+        </ul>
+
+        <div class="brief-intro">
+            <img class= "img" src="images/profile pic.jpeg" alt="profile picture" id="skills">
+            <p>My name is Omar Elasfar and I am a student at Carleton University studying Computer Science with a minor in Statistics. I am very interested in programming and software engineering. My academic journey is centered around Computer Science, where I am developing a strong foundation in programming languages, object-oriented programming, and abstract data types. I am eager to leverage my academic knowledge and practical experience to contribute to innovative solutions in the field of software engineering.</p>
+        </div>
+            
+        <div id="skills-anchor"></div>
+        <div class="section-header">
+            <h1>Languages</h1>
+        </div>
+        
+        <div class="skills">
+            <div class="skill">
+                <img src= "images/java.png" alt="java">
+                <h2>Java</h2>
+            </div>
+            <div class="skill">
+                <img src= "images/python.png" alt="python">
+                <h2>Python</h2>
+            </div>
+            <div class="skill">                    
+                <img src= "images/html.png" alt="html">
+                <h2>HTML</h2>
+            </div>
+            <div class="skill">
+                <img src= "images/css-3.png" alt="css">
+                <h2>CSS</h2>
+            </div>
+            <div class="skill">
+                <img src= "images/js.png" alt="javascript">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="skill">
+                <img src= "images/c-.png" alt="c++">
+                <h2>C++</h2>
+            </div>
+            <div class="skill">
+                <img src= "images/vb.net.png" alt="vb.net">
+                <h2>VB.NET</h2>
+            </div>
+            <div class="skill">
+                <img src= "images/git.png" alt="git">
+                <h2>Git</h2>
+            </div>      
+        </div>
+        
+        <div class="section-header">
+            <h1>Tools</h1>
+        </div>
+
+        <div class="skills">
+            <div class="skill">
+                <img src= "images/vscode.png" alt="java">
+                <h2>VS Code</h2>
+            </div>
+            <div class="skill">
+                <img src= "images/intellij.png" alt="python">
+                <h2>IntelliJ</h2>
+            </div>
+            <div class="skill">                    
+                <img src= "images/powershell.png" alt="html">
+                <h2>PowerShell</h2>
+            </div>
+            <div class="skill" id="projects">
+                <img src= "images/bluej.png" alt="css">
+                <h2>BlueJ</h2>
+            </div>   
+        </div>
+
+        <div id="projects-anchor"></div>
+        <div class="section-header">
+            <h1>Projects</h1>
+        </div>
+
+        <div class="projects">
+            <a href="https://github.com/elasfaromar/recreating-linked-lists" target="_blank">    
+                <div class="project">
+                    <h2>Recreating Linked Lists</h2>
+                    <img src= "images/linkedlist.png" alt="java">
+                    <p>Technology: Java, Data Structures, Object-Oriented Programming, BlueJ</p>
+                    <p>Recreated the Linked List Data Structure and its methods such as: findNode, add, append, etc.</p>
+                </div>
+            </a><a href="https://github.com/Hack-The-Tunnels-8/hack-the-tunnels-hostility" target="_blank">    
+                <div class="project">
+                    <h2>Hackathon</h2>
+                    <img src= "images/hackathon.png" alt="python">
+                    <p>Technology: HTML, SCSS, JavaScript, TypeScript, React, Prisma, Express, VS Code</p>
+                    <p>Renovated a website to make the user experience better. Placed first place.</p>
+                </div>
+            </a><a href="https://github.com/elasfaromar/store-manager-tool" target="_blank">    
+                <div class="project">
+                    <h2>Store Manager's Tool</h2>
+                    <img src= "images/storemanagertool.png" alt="python">
+                    <p>Technology: Java, GUIs, JOptionPanes, Object-Oriented Programming, FileIO, BlueJ</p>
+                    <p>Created a tool for user managers based on my real world experience.</p>
+                </div>
+            </a><a href="https://github.com/elasfaromar/elasfaromar.github.io" target="_blank">    
+                <div class="project">    
+                    <h2>Portfolio</h2>                
+                    <img src= "images/portfolio.png" alt="html">
+                    <p>Technology: HTML, CSS, JavaScript, VS Code</p>
+                    <p>The site you are on now.</p>
+                </div>
+            </a><a href="https://github.com/elasfaromar/weight-goal-planner" target="_blank">    
+                <div class="project">
+                    <h2>Weight Goal Planner</h2>
+                    <img src= "images/weight.png" alt="css">
+                    <p>Technology: Java, FileIO, BlueJ</p>
+                    <p>A program that gets information for a user and plans their weight gain or loss journey.</p>
+                </div>   
+            </a>    
+            </div>
+
+            
     </body>
 
     <footer>
