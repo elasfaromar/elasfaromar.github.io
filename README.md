@@ -24,7 +24,7 @@ This website serves as a central hub to learn more about me and my work. It incl
 
 1. Clone the repository to your local machine:
 
-git clone [ https://github.com/USERNAME/your-portfolio-repo.git](https://github.com/elasfaromar/elasfaromar.github.io)
+git clone [https://github.com/elasfaromar/elasfaromar.github.io](https://github.com/elasfaromar/elasfaromar.github.io)
 
 2. Open the `index.html` file in your web browser to view the portfolio.
 
