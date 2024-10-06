@@ -33,7 +33,7 @@ header a{
 /*basics of the body*/
 body {
     background-color: #cecece;
-    background: linear-gradient(45deg, #008cff6e,  #00ffff42); 
+    background: linear-gradient(#fffdf4, #111010); 
     color: #ffffff;
     margin: 0;
     width: 100%;
