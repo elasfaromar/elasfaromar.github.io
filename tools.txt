@@ -1,0 +1,10 @@
+Git
+SQLite
+Linux
+Ubuntu
+Bash
+PowerShell
+GitHub
+VS Code
+IntelliJ
+OracleVM
