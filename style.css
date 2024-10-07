@@ -218,6 +218,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-left: 0px;
 }
 .socials img{
     height: 5vh;
