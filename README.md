@@ -13,6 +13,7 @@ This website serves as a central hub to learn more about me and my work. It incl
 - Sections for showcasing programming languages and tools I'm proficient in.
 - A dedicated section highlighting my projects with descriptions and links to their GitHub repositories.
 - A responsive design for optimal viewing on different devices.
+- Automated updates using JavaScript that allow me to add and remove skills/tools/projects by editing text files.
 
 ## Technologies Used
 
@@ -22,11 +23,7 @@ This website serves as a central hub to learn more about me and my work. It incl
 
 ## How to Use
 
-1. Clone the repository to your local machine:
-
-git clone [https://github.com/elasfaromar/elasfaromar.github.io](https://github.com/elasfaromar/elasfaromar.github.io)
-
-2. Open the `index.html` file in your web browser to view the portfolio.
+1. Click here: https://elasfaromar.github.io/
 
 ## About the Author
 
