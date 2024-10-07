@@ -18,7 +18,7 @@ function updateSkills(filePath, containerId) {
             container.innerHTML = skills.map(skill => `
                 <div class="skill">
                     <h2>${skill}</h2>
-                    <img src="images/${skill.toLowerCase().replace(/[^a-z0-9]/g, '')}.png" alt="${skill}">
+                    <img src="images/${skill.toLowerCase().replace(/[^a-z0-9]/g, '')}.png" alt="${skill.toLowerCase().replace(/[^a-z0-9]/g, '')}">
                 </div>
             `).join('');
         })
