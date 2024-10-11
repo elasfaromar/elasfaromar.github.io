@@ -6,5 +6,6 @@ JavaScript
 Haskell
 HTML
 CSS
+Sass
 R
 VB.NET

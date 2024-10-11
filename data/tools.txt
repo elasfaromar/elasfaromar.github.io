@@ -1,10 +1,9 @@
 Git
-SQLite
 Linux
 Ubuntu
 Bash
+SQLite
 PowerShell
 GitHub
 VS Code
 IntelliJ
-OracleVM

@@ -55,10 +55,10 @@ function updateProjects(filePath, containerId) {
 }
 
 // Call the function to update the projects section
-updateProjects('projects.txt', 'projects');
+updateProjects('data/projects.txt', 'projects');
 
 // Update Languages
-updateSkills('languages.txt', 'languages-list');
+updateSkills('data/languages.txt', 'languages-list');
 
 // Update Tools
-updateSkills('tools.txt', 'tools-list');
+updateSkills('data/tools.txt', 'tools-list');

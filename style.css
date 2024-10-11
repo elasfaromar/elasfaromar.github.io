@@ -48,7 +48,7 @@ body::-webkit-scrollbar{
 }
 
 #about-me, #skills-anchor, #projects-anchor {
-    scroll-margin-top: 9vh;
+    scroll-margin-top: 5vh;
 }
 
 /*header stuff*/
@@ -97,12 +97,13 @@ header{
 .brief-intro{
     color: #000000;
     width: 76vw;
-    padding: 2%;
+    padding: 5%;
     background-color: #ffffff;
     box-shadow: 0px 5px 0 #00000059;
     border-radius: 25px;
     border: #707070 1px 5% groove;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
@@ -117,7 +118,7 @@ header{
     font-size: 2vh;
 }
 .brief-intro .img{
-    height: 10vw;
+    height: 40vh;
     border-radius: 50%;
     padding-right: 2vw;
 }
@@ -176,9 +177,12 @@ header{
     height: 5vh;
     margin-right: 1vw;
 }
-.skill:hover, .project:hover{
-    box-shadow: 0px 2px 0 #fffffffa;
+.project:hover{
     border-radius: 50px;
+    transition: 0.5s;
+}
+.skill:hover {
+    border-radius: 20px;
     transition: 0.5s;
 }
 .skill img:hover{
@@ -256,25 +260,25 @@ header{
     }
     .skill, .project{
         width: 75vw;
+        
+    }
+    .skill {
+        padding-left: 15%;
+        padding-right: 15%;
     }
     .brief-intro{
         float: none;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 10%;
     }
     .brief-intro .img{
         height: 30vh;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .header-items p{
         color: transparent;
         width: 0px;
-    }
-    .header-items img{
-        position: absolute;
-        margin: 2vw;
-        right: 3vw;
     }
   }
 
