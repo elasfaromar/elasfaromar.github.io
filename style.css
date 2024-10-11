@@ -47,6 +47,9 @@ body::-webkit-scrollbar{
     display: none;
 }
 
+#about-me, #skills-anchor, #projects-anchor {
+    scroll-margin-top: 9vh;
+}
 
 /*header stuff*/
 header{
