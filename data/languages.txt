@@ -4,6 +4,7 @@ Python
 SQL
 JavaScript
 Haskell
+Bash
 HTML
 CSS
 Sass

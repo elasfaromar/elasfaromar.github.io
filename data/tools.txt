@@ -1,9 +1,9 @@
 Git
 Linux
 Ubuntu
-Bash
 SQLite
 PowerShell
 GitHub
 VS Code
 IntelliJ
+Oracle VM
