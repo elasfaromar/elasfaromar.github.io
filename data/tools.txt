@@ -1,4 +1,5 @@
 Git
+Node.js
 Linux
 Ubuntu
 SQLite
@@ -6,4 +7,5 @@ PowerShell
 GitHub
 VS Code
 IntelliJ
+Jira
 Oracle VM
