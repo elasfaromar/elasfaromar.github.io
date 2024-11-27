@@ -2,10 +2,11 @@ Git
 Node.js
 Linux
 Ubuntu
+GDB
 SQLite
-PowerShell
+Jira
 GitHub
+Scikit-Learn
+PowerShell
 VS Code
 IntelliJ
-Jira
-Oracle VM

@@ -2,11 +2,10 @@ Java
 C
 Python
 SQL
-JavaScript
 Haskell
+Go
+JavaScript
 Bash
 HTML
 CSS
-Sass
 R
-VB.NET
